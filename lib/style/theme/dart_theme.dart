@@ -17,7 +17,7 @@ class DarkTheme implements AppTheme {
     inactive: Palette.grey500,
     inactiveContainer: Palette.grey600,
     onInactiveContainer: Palette.grey400,
-    primary: Palette.navy,
+    primary: Palette.blue,
     onPrimary: Palette.white,
     selectedIconColor: Palette.oneDarkSelectIcon,
     unSelectedIconColor: Palette.oneDarkUnSelectIcon,
