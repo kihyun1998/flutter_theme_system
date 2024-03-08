@@ -7,6 +7,7 @@ abstract class Palette {
   static Color red = const Color(0xFFFB432F);
   static Color green = const Color(0xFF5AC463);
   static Color grey = const Color(0xFF707070);
+  static Color purple = const Color(0xFFCB81DA);
 
   /// Achromatic color (무채색)
   static Color white = const Color(0xFFFFFFFF);
@@ -36,10 +37,11 @@ abstract class Palette {
   static Color ivoryPrimary = const Color(0xFFC7BCA6);
 
   static Color oneDarkBackground = const Color(0xFF282C34);
-  static Color oneDarkSurface = const Color(0xFF21252B);
-  static Color oneDarkHintContainer = const Color(0xFF1D1F23);
+  static Color oneDarkSurface = const Color(0xFF2D323B);
+  static Color oneDarkHintContainer = const Color(0xFF21252B);
   static Color oneDarkOnHintContainer = const Color(0xFF717274);
   static Color oneDarkText = const Color(0xFFABACAD);
   static Color oneDarkSelectIcon = const Color(0xFFD7DAE0);
   static Color oneDarkUnSelectIcon = const Color(0xFF6E7179);
+  static Color oneDarkBar = const Color(0xFF3B4048);
 }

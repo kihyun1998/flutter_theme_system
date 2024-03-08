@@ -19,8 +19,8 @@ class LightTheme implements AppTheme {
     onInactiveContainer: Palette.grey250,
     primary: Palette.blue,
     onPrimary: Palette.white,
-    selectedIconColor: Palette.oneDarkSelectIcon,
-    unSelectedIconColor: Palette.oneDarkUnSelectIcon,
+    selectedIconColor: Palette.grey800,
+    unSelectedIconColor: Palette.grey400,
   );
 
   @override
