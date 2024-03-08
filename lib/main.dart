@@ -62,6 +62,22 @@ class MyApp extends ConsumerWidget {
                         color: ref.theme.color.onPrimary,
                       ),
                     ),
+                    const SizedBox(width: 30),
+                    ColorBox(
+                      color: ref.theme.color.background,
+                      text: "Select \nIcon box",
+                      textStyle: ref.theme.font.body1.copyWith(
+                        color: ref.theme.color.selectedIconColor,
+                      ),
+                    ),
+                    const SizedBox(width: 30),
+                    ColorBox(
+                      color: ref.theme.color.background,
+                      text: "Unselect \nIcon box",
+                      textStyle: ref.theme.font.body1.copyWith(
+                        color: ref.theme.color.unSelectedIconColor,
+                      ),
+                    ),
                   ],
                 ),
                 const SizedBox(height: 30),

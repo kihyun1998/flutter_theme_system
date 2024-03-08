@@ -2,8 +2,8 @@ part of 'app_theme.dart';
 
 class AppColor {
   const AppColor({
-    required this.surface,
     required this.background,
+    required this.surface,
     required this.text,
     required this.hint,
     required this.hintContainer,
@@ -13,6 +13,8 @@ class AppColor {
     required this.onInactiveContainer,
     required this.primary,
     required this.onPrimary,
+    required this.selectedIconColor,
+    required this.unSelectedIconColor,
   });
 
   /// Surface
@@ -34,4 +36,8 @@ class AppColor {
 
   final Color primary;
   final Color onPrimary;
+
+  ///Icon
+  final Color selectedIconColor;
+  final Color unSelectedIconColor;
 }

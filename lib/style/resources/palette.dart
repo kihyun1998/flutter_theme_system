@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 abstract class Palette {
   /// Chromatic color (유채색)
   static Color blue = const Color(0xFF1C71C4);
-  static Color navy = const Color(0xff0D3F7D);
+  static Color navy = const Color.fromARGB(255, 2, 27, 58);
   static Color red = const Color(0xFFFB432F);
   static Color green = const Color(0xFF5AC463);
   static Color grey = const Color(0xFF707070);
@@ -15,9 +15,11 @@ abstract class Palette {
   static Color grey200 = const Color(0xFFEFEFEF);
   static Color grey250 = const Color(0xFFE8E8E8);
   static Color grey300 = const Color(0xFFDFDFDF);
+  static Color grey325 = const Color(0xFFCCCCCC);
   static Color grey350 = const Color(0xFFC8C8C8);
   static Color grey400 = const Color(0xFFB7B7B7);
   static Color grey500 = const Color(0xFF949494);
+  static Color grey550 = const Color(0xFF6E7179);
   static Color grey600 = const Color(0xFF777777);
   static Color grey650 = const Color(0xFF616161);
   static Color grey700 = const Color(0xFF555555);
@@ -32,4 +34,12 @@ abstract class Palette {
   static Color ivorySurface = const Color(0xFFF8F5ED);
   static Color ivoryBackground = const Color(0xFFE8E3D5);
   static Color ivoryPrimary = const Color(0xFFC7BCA6);
+
+  static Color oneDarkBackground = const Color(0xFF282C34);
+  static Color oneDarkSurface = const Color(0xFF21252B);
+  static Color oneDarkHintContainer = const Color(0xFF1D1F23);
+  static Color oneDarkOnHintContainer = const Color(0xFF717274);
+  static Color oneDarkText = const Color(0xFFABACAD);
+  static Color oneDarkSelectIcon = const Color(0xFFD7DAE0);
+  static Color oneDarkUnSelectIcon = const Color(0xFF6E7179);
 }
