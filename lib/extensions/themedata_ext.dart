@@ -13,10 +13,11 @@ extension ThemeServiceExt on WidgetRef {
         colorScheme: ColorScheme.fromSwatch().copyWith(
           primary: theme.color.primary,
         ),
-        scaffoldBackgroundColor: theme.color.surface,
         appBarTheme: AppBarTheme(
-          backgroundColor: theme.color.surface,
+          backgroundColor: theme.color.background,
+          titleTextStyle: theme.font.headline1,
         ),
+        scaffoldBackgroundColor: theme.color.surface,
         tabBarTheme: TabBarTheme(
           dividerColor: theme.color.surface,
           dividerHeight: 3,

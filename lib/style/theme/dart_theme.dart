@@ -11,7 +11,6 @@ class DarkTheme implements AppTheme {
     surface: Palette.grey800,
     background: Palette.black.withOpacity(0.55), //배경색
     text: Palette.grey100,
-    subtext: Palette.grey500,
     hint: Palette.grey600,
     hintContainer: Palette.grey770,
     onHintContainer: Palette.grey350,
@@ -20,8 +19,6 @@ class DarkTheme implements AppTheme {
     onInactiveContainer: Palette.grey400,
     primary: Palette.blue,
     onPrimary: Palette.white,
-    secondary: Palette.grey,
-    onSecondary: Palette.white,
   );
 
   @override

@@ -5,7 +5,6 @@ class AppColor {
     required this.surface,
     required this.background,
     required this.text,
-    required this.subtext,
     required this.hint,
     required this.hintContainer,
     required this.onHintContainer,
@@ -14,8 +13,6 @@ class AppColor {
     required this.onInactiveContainer,
     required this.primary,
     required this.onPrimary,
-    required this.secondary,
-    required this.onSecondary,
   });
 
   /// Surface
@@ -24,7 +21,6 @@ class AppColor {
 
   /// Text
   final Color text;
-  final Color subtext;
 
   /// Hint
   final Color hint;
@@ -38,6 +34,4 @@ class AppColor {
 
   final Color primary;
   final Color onPrimary;
-  final Color secondary;
-  final Color onSecondary;
 }

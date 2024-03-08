@@ -11,17 +11,14 @@ class LightTheme implements AppTheme {
     surface: Palette.grey200,
     background: Palette.white, //배경색
     text: Palette.black,
-    subtext: Palette.grey700,
     hint: Palette.grey500,
     hintContainer: Palette.grey150,
     onHintContainer: Palette.grey500,
     inactive: Palette.grey400,
-    inactiveContainer: Palette.grey250,
-    onInactiveContainer: Palette.white,
+    inactiveContainer: Palette.grey400,
+    onInactiveContainer: Palette.grey250,
     primary: Palette.blue,
     onPrimary: Palette.white,
-    secondary: Palette.ivoryPrimary,
-    onSecondary: Palette.white,
   );
 
   @override
