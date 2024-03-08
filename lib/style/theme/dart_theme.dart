@@ -8,16 +8,16 @@ class DarkTheme implements AppTheme {
 
   @override
   AppColor color = AppColor(
-    surface: Palette.grey800,
-    background: Palette.black.withOpacity(0.55), //배경색
+    surface: Palette.grey750,
+    background: Palette.grey800,
     text: Palette.grey100,
-    hint: Palette.grey600,
+    hint: Palette.grey500,
     hintContainer: Palette.grey770,
     onHintContainer: Palette.grey350,
     inactive: Palette.grey500,
-    inactiveContainer: Palette.grey700,
+    inactiveContainer: Palette.grey600,
     onInactiveContainer: Palette.grey400,
-    primary: Palette.blue,
+    primary: Palette.navy,
     onPrimary: Palette.white,
   );
 
