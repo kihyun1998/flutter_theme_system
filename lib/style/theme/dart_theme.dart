@@ -8,20 +8,20 @@ class DarkTheme implements AppTheme {
 
   @override
   AppColor color = AppColor(
-    surface: Palette.oneDarkSurface,
-    background: Palette.oneDarkBackground,
-    text: Palette.oneDarkText,
-    hint: Palette.grey500,
-    hintContainer: Palette.oneDarkHintContainer,
-    onHintContainer: Palette.oneDarkOnHintContainer,
-    inactive: Palette.grey500,
-    inactiveContainer: Palette.grey600,
-    onInactiveContainer: Palette.grey400,
-    primary: Palette.blue,
-    onPrimary: Palette.white,
-    selectedIconColor: Palette.oneDarkSelectIcon,
-    unSelectedIconColor: Palette.oneDarkUnSelectIcon,
-  );
+      surface: Palette.oneDarkSurface,
+      background: Palette.oneDarkBackground,
+      text: Palette.oneDarkText,
+      hint: Palette.grey500,
+      hintContainer: Palette.oneDarkHintContainer,
+      onHintContainer: Palette.oneDarkOnHintContainer,
+      inactive: Palette.grey500,
+      inactiveContainer: Palette.grey600,
+      onInactiveContainer: Palette.grey400,
+      primary: Palette.blue,
+      onPrimary: Palette.white,
+      selectedIconColor: Palette.oneDarkSelectIcon,
+      unSelectedIconColor: Palette.oneDarkUnSelectIcon,
+      bar: Palette.oneDarkBar);
 
   @override
   late AppFont font = AppFont(

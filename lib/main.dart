@@ -84,6 +84,12 @@ class MyApp extends ConsumerWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    Container(
+                      height: 100,
+                      width: 20,
+                      color: ref.theme.color.bar,
+                    ),
+                    const SizedBox(width: 30),
                     ElevatedButton(
                       onPressed: () {
                         ref.read(themeProvider.notifier).toggleTheme();

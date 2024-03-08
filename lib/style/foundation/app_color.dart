@@ -15,6 +15,7 @@ class AppColor {
     required this.onPrimary,
     required this.selectedIconColor,
     required this.unSelectedIconColor,
+    required this.bar,
   });
 
   /// Surface
@@ -40,4 +41,6 @@ class AppColor {
   ///Icon
   final Color selectedIconColor;
   final Color unSelectedIconColor;
+
+  final Color bar;
 }
