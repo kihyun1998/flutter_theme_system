@@ -63,20 +63,16 @@ class MyApp extends ConsumerWidget {
                       ),
                     ),
                     const SizedBox(width: 30),
-                    ColorBox(
+                    ColorIconBox(
                       color: ref.theme.color.background,
-                      text: "Select \nIcon box",
-                      textStyle: ref.theme.font.body1.copyWith(
-                        color: ref.theme.color.selectedIconColor,
-                      ),
+                      icon: Icons.home,
+                      iconColor: ref.theme.color.selectedIconColor,
                     ),
                     const SizedBox(width: 30),
-                    ColorBox(
+                    ColorIconBox(
                       color: ref.theme.color.background,
-                      text: "Unselect \nIcon box",
-                      textStyle: ref.theme.font.body1.copyWith(
-                        color: ref.theme.color.unSelectedIconColor,
-                      ),
+                      icon: Icons.home,
+                      iconColor: ref.theme.color.unSelectedIconColor,
                     ),
                   ],
                 ),
@@ -133,6 +129,35 @@ class ColorBox extends ConsumerWidget {
           style: textStyle,
         ),
       ),
+    );
+  }
+}
+
+class ColorIconBox extends ConsumerWidget {
+  const ColorIconBox({
+    super.key,
+    required this.color,
+    required this.iconColor,
+    required this.icon,
+  });
+
+  final Color color;
+  final Color iconColor;
+  final IconData icon;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return Container(
+      width: 100,
+      height: 100,
+      decoration: BoxDecoration(
+        color: color,
+      ),
+      child: Center(
+          child: Icon(
+        icon,
+        color: iconColor,
+      )),
     );
   }
 }
