@@ -20,7 +20,7 @@ class LightTheme implements AppTheme {
     primary: Palette.blue,
     onPrimary: Palette.white,
     selectedIconColor: Palette.grey800,
-    unSelectedIconColor: Palette.grey400,
+    unSelectedIconColor: Palette.grey500,
     bar: Palette.grey400,
   );
 

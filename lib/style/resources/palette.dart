@@ -42,6 +42,6 @@ abstract class Palette {
   static Color oneDarkOnHintContainer = const Color(0xFF717274);
   static Color oneDarkText = const Color(0xFFABACAD);
   static Color oneDarkSelectIcon = const Color(0xFFD7DAE0);
-  static Color oneDarkUnSelectIcon = const Color(0xFF6E7179);
+  static Color oneDarkIcon = const Color(0xFF6B717D);
   static Color oneDarkBar = const Color(0xFF3B4048);
 }

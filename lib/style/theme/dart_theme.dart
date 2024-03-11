@@ -20,7 +20,7 @@ class DarkTheme implements AppTheme {
       primary: Palette.blue,
       onPrimary: Palette.white,
       selectedIconColor: Palette.oneDarkSelectIcon,
-      unSelectedIconColor: Palette.oneDarkUnSelectIcon,
+      unSelectedIconColor: Palette.oneDarkIcon,
       bar: Palette.oneDarkBar);
 
   @override
